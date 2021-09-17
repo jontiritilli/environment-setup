@@ -1,0 +1,61 @@
+{
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "'Operator Mono Lig', 'Menlo', 'Monaco', 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "solid",
+  "editor.detectIndentation": false,
+  "editor.fontWeight": "400",
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+              "scope": [
+                  "meta.var.expr.js",
+                  "string.quoted.single.js",
+                  "storage.type.function.arrow"
+              ],
+              "settings": {
+                  "fontStyle": "italic"
+              }
+          },
+          {
+              "scope": [
+                  "meta.var-single-variable.expr.js",
+                  "meta.object-binding-pattern-variable.js"
+              ],
+              "settings": {
+                  "fontStyle": "underline"
+              }
+          }
+      ]
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.js":"javascriptreact"
+  },
+  "vscode_custom_css.imports": [
+      "file:///Users/jonathantiritilli/Dev/Operator/customvs.css"
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.mac": "/Users/jonathantiritilli/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
